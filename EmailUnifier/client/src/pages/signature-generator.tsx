@@ -9,6 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Copy, RotateCcw, Check, ChevronDown, ChevronRight, Upload, Archive, Image } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import logoImage from "../assets/BWA30New2.jpg";
+
 export default function SignatureGenerator() {
   const [copied, setCopied] = useState(false);
   const [logoSectionExpanded, setLogoSectionExpanded] = useState(false);
@@ -242,7 +243,7 @@ export default function SignatureGenerator() {
                             TEL // {watchedValues.phone || "415 979 9775"}
                           </div>
                         </td>
-                        <td style={{ vertical-align: 'top', padding: '4px 0 4px 15px', borderLeft: '1px solid #cccccc' }}>
+                        <td style={{ verticalAlign: 'top', padding: '4px 0 4px 15px', borderLeft: '1px solid #cccccc' }}>
                           <div className="font-bold" style={{ fontSize: '14px', marginBottom: '3px', lineHeight: '16px', whiteSpace: 'nowrap', color: '#606060' }}>BETTER WORLD ADVERTISING</div>
                           <div style={{ fontSize: '14px', marginBottom: '3px', lineHeight: '16px', color: '#5e5e5e' }}>1010 B Street, Suite 328</div>
                           <div style={{ fontSize: '14px', marginBottom: '3px', lineHeight: '16px', color: '#5e5e5e' }}>San Rafael CA 94901</div>
